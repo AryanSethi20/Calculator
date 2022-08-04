@@ -64,12 +64,6 @@ Button(root, text="7", command= lambda :numbers(7)).grid(row=2, column=0)
 Button(root, text="8", command= lambda : numbers(8)).grid(row=2, column=1)
 Button(root, text="9", command= lambda : numbers(9)).grid(row=2, column=2)
 
-"""
-So in the case of buttons, lambda basically delays the execution of the function until the user clicks the button, 
-by creating another function on the spot, which does not get called until the button is actually clicked. 
-Hence the function does not get executed, where it is given as command to the Button
-"""
-
 Button(root, text="4", command= lambda :numbers(4)).grid(row=3, column=0)
 Button(root, text="5", command= lambda :numbers(5)).grid(row=3, column=1)
 Button(root, text="6", command= lambda :numbers(6)).grid(row=3, column=2)
